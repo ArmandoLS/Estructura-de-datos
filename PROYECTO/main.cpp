@@ -54,8 +54,6 @@ char opcp;
    printf("\n\t\t\t\t |                 _-ESTRUCTURA DE DATOS-_               |");
    printf("\n\t\t\t\t |                                                       |");
    printf("\n\t\t\t\t |                   Lopez Silva Armando                 |");
-   printf("\n\t\t\t\t |                Perez Becerra Carlos Manuel            |");
-   printf("\n\t\t\t\t |            Calderon Gonzalez Christopher Imanol       |");
    printf("\n\t\t\t\t |                                                       |");
    printf("\n\t\t\t\t #########################################################" );
    printf("\n\t\t\t\t #########################################################" );
@@ -118,13 +116,13 @@ char opcp;
   
   printf("\nseleccione un numero 'N' de numeros para orddenar   \n\n");
   
-  printf("¨CON CUANNTOS ELEMENTOS CUENTA SU ARREGLO?:");										//SE PIDE LA CANTIDAD DE ELEMENTOS
+  printf("Â¨CON CUANNTOS ELEMENTOS CUENTA SU ARREGLO?:");										//SE PIDE LA CANTIDAD DE ELEMENTOS
   scanf("%d",&n);																				//EN EL ARREGLO
   printf("  \n\t-->escriba los [%d] datos de su arreglo \n",n);
   
     for (int i = 0; i < n; i++){ 																// SE RECOPILAN LOS N DATOS
       
-    printf("%dø dato: ",i+1);
+    printf("%dÃ¸ dato: ",i+1);
     scanf("%d",&arreglo[i]);
     }
     
